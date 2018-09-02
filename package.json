@@ -1,0 +1,32 @@
+{
+  "name": "functions-io-gateway-http",
+  "version": "0.0.1",
+  "description": "Functions Gateway HTTP",
+  "main": "lib/index.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "functionsjs",
+    "framework",
+    "rpc",
+    "web"
+  ],
+  "scripts": {
+    "test": "node labs/server.js",
+    "start": "node labs/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/functions-io/functions-io-gateway-http.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Rogério Dias Moreira",
+    "email": "rogeriodegoiania@gmail.com"
+  },
+  "license": "MIT"
+}
