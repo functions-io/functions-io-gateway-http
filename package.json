@@ -19,6 +19,7 @@
     "url": "https://github.com/functions-io/functions-io-gateway-http.git"
   },
   "dependencies": {
+    "ecstatic": "^3.3.0"
   },
   "devDependencies": {},
   "engines": {
