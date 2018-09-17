@@ -1,6 +1,6 @@
 {
   "name": "functions-io-gateway-http",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Functions Gateway HTTP",
   "main": "lib/index.js",
   "readmeFilename": "README.md",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "author": {
     "name": "Rogério Dias Moreira",
