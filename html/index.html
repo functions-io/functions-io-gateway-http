@@ -1,6 +1,17 @@
 <html>
     <head>
         <title>FUNCTIONS-IO</title>
+        <script>
+            fetch("http://localhost:8080/index.html")
+                .then(function(response) {
+                    response.blob().then(function(dados){
+                        console.log("resposta", dados);
+                    });
+                })
+                .catch(function(erro) {
+                    console.log("erro",erro);
+                });
+        </script>
     </head>
     <body>
         <h1>FUNCTIONS-IO GATEWAY HTTP</h1>
